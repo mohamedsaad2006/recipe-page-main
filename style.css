@@ -1,0 +1,121 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* ضبط نافذة العرض لضمان القياس الصحيح على الأجهزة المحمولة */
+@viewport {
+  width: device-width;
+  initial-scale: 1;
+}
+
+/* ضبط نموذج box-sizing لجميع العناصر */
+
+/* ضبط العرض الأقصى للمنطقة المحتوى */
+.content {
+  max-width: 1200px; /* قم بضبط العرض الأقصى لتصميمك */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* استخدام استعلامات الوسائط لضبط التخطيط لشاشات مختلفة */
+@media (max-width: 768px) {
+  /* ضبط التخطيط لشاشات أصغر (مثل الأجهزة اللوحية) */
+  .content {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* ضبط التخطيط لشاشات أصغر (مثل الهواتف المحمولة) */
+  .content {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  /* ضبط التخطيط لشاشات أصغر (مثل الهواتف المحمولة القديمة) */
+  .content {
+    padding: 0;
+  }
+}
+
+/* قم بإضافة استعلامات وسائط إضافية حسب الحاجة لضبط التخطيط لشاشات مختلفة */
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit-<uniquifier> {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  background-color: hsl(0, 0%, 100%);
+}
+.img{
+   
+    border-radius: 5PX;
+}
+.simple {
+    font-family: 'Young Serif';
+    font-weight: 400px;
+    color:hsl(24,5%,18%);
+}
+.an-easy{
+    font-family: 'Outfit';
+    font-size: 16px;
+    color:  hsl(24, 5%, 18%);
+    color: rgb(45, 50, 117)
+}
+.preparation{
+    font-family: 'Outfit';
+    font-size: 16px;
+    color:  hsl(332, 51%, 32%);
+    padding-left: 30px;
+    font-weight: 600;
+    background-color:  hsl(330, 100%, 98%);
+}
+.total{
+    font-family: '[Young Serif';
+    font-size: 16px;
+    background-color:  hsl(330, 100%, 98%);
+    color: rgb(45, 50, 117)
+}
+.ingred{
+    color:    hsl(14, 45%, 36%);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border-bottom: 1px solid;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
